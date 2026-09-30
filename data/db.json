@@ -1,0 +1,354 @@
+{
+  "cars": [
+    {
+      "id": "car001",
+      "brand": "Mercedes-Benz",
+      "model": "S-Class 580",
+      "year": 2024,
+      "plate": "12345-A-1",
+      "pricePerDay": 2500,
+      "transmission": "Automatic",
+      "status": "available",
+      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=900&q=80&auto=format&fit=crop",
+      "createdAt": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "car002",
+      "brand": "BMW",
+      "model": "M5 Competition",
+      "year": 2024,
+      "plate": "23456-B-2",
+      "pricePerDay": 2200,
+      "transmission": "Automatic",
+      "status": "available",
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=900&q=80&auto=format&fit=crop",
+      "createdAt": "2024-01-16T10:00:00.000Z"
+    },
+    {
+      "id": "car003",
+      "brand": "Audi",
+      "model": "RS7 Sportback",
+      "year": 2023,
+      "plate": "34567-C-3",
+      "pricePerDay": 2000,
+      "transmission": "Automatic",
+      "status": "available",
+      "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=900&q=80&auto=format&fit=crop",
+      "createdAt": "2024-01-17T10:00:00.000Z"
+    },
+    {
+      "id": "car004",
+      "brand": "Porsche",
+      "model": "911 Carrera",
+      "year": 2024,
+      "plate": "45678-D-4",
+      "pricePerDay": 3500,
+      "transmission": "Automatic",
+      "status": "available",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=900&q=80&auto=format&fit=crop",
+      "createdAt": "2024-01-18T10:00:00.000Z"
+    },
+    {
+      "id": "car005",
+      "brand": "Range Rover",
+      "model": "Sport HSE",
+      "year": 2024,
+      "plate": "56789-E-5",
+      "pricePerDay": 2800,
+      "transmission": "Automatic",
+      "status": "available",
+      "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=900&q=80&auto=format&fit=crop",
+      "createdAt": "2024-01-19T10:00:00.000Z"
+    },
+    {
+      "id": "car006",
+      "brand": "Toyota",
+      "model": "Land Cruiser VXR",
+      "year": 2024,
+      "plate": "67890-F-6",
+      "pricePerDay": 1800,
+      "transmission": "Automatic",
+      "status": "available",
+      "image": "https://images.unsplash.com/photo-1594502184342-2e12f877aa73?w=900&q=80&auto=format&fit=crop",
+      "createdAt": "2024-01-20T10:00:00.000Z"
+    },
+    {
+      "id": "car007",
+      "brand": "Volkswagen",
+      "model": "Golf GTI",
+      "year": 2023,
+      "plate": "78901-G-7",
+      "pricePerDay": 900,
+      "transmission": "Manual",
+      "status": "available",
+      "image": "https://images.unsplash.com/photo-1471479917193-f00955256257?w=900&q=80&auto=format&fit=crop",
+      "createdAt": "2024-01-21T10:00:00.000Z"
+    },
+    {
+      "id": "car008",
+      "brand": "Hyundai",
+      "model": "Tucson Premium",
+      "year": 2024,
+      "plate": "89012-H-8",
+      "pricePerDay": 800,
+      "transmission": "Automatic",
+      "status": "available",
+      "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=900&q=80&auto=format&fit=crop",
+      "createdAt": "2024-01-22T10:00:00.000Z"
+    },
+    {
+      "id": "car009",
+      "brand": "Kia",
+      "model": "Sportage GT-Line",
+      "year": 2024,
+      "plate": "90123-I-9",
+      "pricePerDay": 750,
+      "transmission": "Automatic",
+      "status": "available",
+      "image": "https://images.unsplash.com/photo-1617469767053-d3b523a0b982?w=900&q=80&auto=format&fit=crop",
+      "createdAt": "2024-01-23T10:00:00.000Z"
+    },
+    {
+      "id": "car010",
+      "brand": "Honda",
+      "model": "Accord Sport",
+      "year": 2023,
+      "plate": "01234-J-10",
+      "pricePerDay": 700,
+      "transmission": "Automatic",
+      "status": "available",
+      "image": "https://images.unsplash.com/photo-1590362891991-f776e747a588?w=900&q=80&auto=format&fit=crop",
+      "createdAt": "2024-01-24T10:00:00.000Z"
+    }
+  ],
+
+  "customers": [
+    {
+      "id": "cust001",
+      "name": "محمد العلمي",
+      "phone": "+212 661 234 567",
+      "email": "mohamed.alami@example.com",
+      "license": "A123456",
+      "createdAt": "2024-02-01T09:00:00.000Z"
+    },
+    {
+      "id": "cust002",
+      "name": "فاطمة الزهراء بنعلي",
+      "phone": "+212 662 345 678",
+      "email": "fatima.benali@example.com",
+      "license": "B234567",
+      "createdAt": "2024-02-02T09:00:00.000Z"
+    },
+    {
+      "id": "cust003",
+      "name": "يوسف الإدريسي",
+      "phone": "+212 663 456 789",
+      "email": "youssef.idrissi@example.com",
+      "license": "C345678",
+      "createdAt": "2024-02-03T09:00:00.000Z"
+    },
+    {
+      "id": "cust004",
+      "name": "سارة المنصوري",
+      "phone": "+212 664 567 890",
+      "email": "sara.mansouri@example.com",
+      "license": "D456789",
+      "createdAt": "2024-02-04T09:00:00.000Z"
+    },
+    {
+      "id": "cust005",
+      "name": "أحمد التازي",
+      "phone": "+212 665 678 901",
+      "email": "ahmed.tazi@example.com",
+      "license": "E567890",
+      "createdAt": "2024-02-05T09:00:00.000Z"
+    },
+    {
+      "id": "cust006",
+      "name": "خديجة الفاسي",
+      "phone": "+212 666 789 012",
+      "email": "khadija.fassi@example.com",
+      "license": "F678901",
+      "createdAt": "2024-02-06T09:00:00.000Z"
+    },
+    {
+      "id": "cust007",
+      "name": "عمر بنكيران",
+      "phone": "+212 667 890 123",
+      "email": "omar.benkiran@example.com",
+      "license": "G789012",
+      "createdAt": "2024-02-07T09:00:00.000Z"
+    },
+    {
+      "id": "cust008",
+      "name": "نادية العلوي",
+      "phone": "+212 668 901 234",
+      "email": "nadia.alaoui@example.com",
+      "license": "H890123",
+      "createdAt": "2024-02-08T09:00:00.000Z"
+    },
+    {
+      "id": "cust009",
+      "name": "كريم بنجلون",
+      "phone": "+212 669 012 345",
+      "email": "karim.benjelloun@example.com",
+      "license": "I901234",
+      "createdAt": "2024-02-09T09:00:00.000Z"
+    },
+    {
+      "id": "cust010",
+      "name": "ليلى السقاط",
+      "phone": "+212 670 123 456",
+      "email": "leila.sekkat@example.com",
+      "license": "J012345",
+      "createdAt": "2024-02-10T09:00:00.000Z"
+    }
+  ],
+
+  "bookings": [
+    {
+      "id": "book001",
+      "carId": "car001",
+      "customerId": "cust001",
+      "startDate": "2024-11-01",
+      "endDate": "2024-11-05",
+      "days": 4,
+      "totalPrice": 10000,
+      "status": "completed",
+      "notes": "رحلة عمل إلى الرباط",
+      "createdAt": "2024-10-28T09:00:00.000Z"
+    },
+    {
+      "id": "book002",
+      "carId": "car004",
+      "customerId": "cust002",
+      "startDate": "2024-11-10",
+      "endDate": "2024-11-12",
+      "days": 2,
+      "totalPrice": 7000,
+      "status": "completed",
+      "notes": "مناسبة خاصة",
+      "createdAt": "2024-11-05T09:00:00.000Z"
+    },
+    {
+      "id": "book003",
+      "carId": "car002",
+      "customerId": "cust003",
+      "startDate": "2024-11-15",
+      "endDate": "2024-11-20",
+      "days": 5,
+      "totalPrice": 11000,
+      "status": "active",
+      "notes": "زيارة عائلية",
+      "createdAt": "2024-11-12T09:00:00.000Z"
+    },
+    {
+      "id": "book004",
+      "carId": "car005",
+      "customerId": "cust004",
+      "startDate": "2024-11-18",
+      "endDate": "2024-11-22",
+      "days": 4,
+      "totalPrice": 11200,
+      "status": "active",
+      "notes": "رحلة إلى الصحراء",
+      "createdAt": "2024-11-15T09:00:00.000Z"
+    },
+    {
+      "id": "book005",
+      "carId": "car003",
+      "customerId": "cust005",
+      "startDate": "2024-11-25",
+      "endDate": "2024-11-28",
+      "days": 3,
+      "totalPrice": 6000,
+      "status": "active",
+      "notes": "حفل زفاف",
+      "createdAt": "2024-11-20T09:00:00.000Z"
+    },
+    {
+      "id": "book006",
+      "carId": "car006",
+      "customerId": "cust006",
+      "startDate": "2024-12-01",
+      "endDate": "2024-12-07",
+      "days": 6,
+      "totalPrice": 10800,
+      "status": "active",
+      "notes": "رحلة عائلية إلى مراكش",
+      "createdAt": "2024-11-25T09:00:00.000Z"
+    },
+    {
+      "id": "book007",
+      "carId": "car007",
+      "customerId": "cust007",
+      "startDate": "2024-10-15",
+      "endDate": "2024-10-18",
+      "days": 3,
+      "totalPrice": 2700,
+      "status": "completed",
+      "notes": "استخدام شخصي",
+      "createdAt": "2024-10-10T09:00:00.000Z"
+    },
+    {
+      "id": "book008",
+      "carId": "car008",
+      "customerId": "cust008",
+      "startDate": "2024-12-05",
+      "endDate": "2024-12-10",
+      "days": 5,
+      "totalPrice": 4000,
+      "status": "active",
+      "notes": "عمل يومي",
+      "createdAt": "2024-11-28T09:00:00.000Z"
+    },
+    {
+      "id": "book009",
+      "carId": "car009",
+      "customerId": "cust009",
+      "startDate": "2024-09-20",
+      "endDate": "2024-09-24",
+      "days": 4,
+      "totalPrice": 3000,
+      "status": "completed",
+      "notes": "زيارة إلى طنجة",
+      "createdAt": "2024-09-15T09:00:00.000Z"
+    },
+    {
+      "id": "book010",
+      "carId": "car010",
+      "customerId": "cust010",
+      "startDate": "2024-12-15",
+      "endDate": "2024-12-20",
+      "days": 5,
+      "totalPrice": 3500,
+      "status": "active",
+      "notes": "عطلة نهاية السنة",
+      "createdAt": "2024-12-05T09:00:00.000Z"
+    },
+    {
+      "id": "book011",
+      "carId": "car001",
+      "customerId": "cust007",
+      "startDate": "2024-08-10",
+      "endDate": "2024-08-15",
+      "days": 5,
+      "totalPrice": 12500,
+      "status": "completed",
+      "notes": "رحلة صيفية",
+      "createdAt": "2024-08-05T09:00:00.000Z"
+    },
+    {
+      "id": "book012",
+      "carId": "car004",
+      "customerId": "cust005",
+      "startDate": "2024-07-01",
+      "endDate": "2024-07-04",
+      "days": 3,
+      "totalPrice": 10500,
+      "status": "completed",
+      "notes": "مناسبة عائلية",
+      "createdAt": "2024-06-25T09:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PRESTIGE MOTORS · استعرض أسطولنا الفاخر</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;900&family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/store.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/store.html" class="brand">
+      <div class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 2L4 7v10l8 5 8-5V7l-8-5z"/>
+          <path d="M12 22V12M4 7l8 5 8-5"/>
+        </svg>
+      </div>
+      <div class="brand-text">
+        <h1>PRESTIGE</h1>
+        <span>MOTORS · RENTAL</span>
+      </div>
+    </a>
+    <nav class="main-nav">
+      <a href="#fleet">الأسطول</a>
+      <a href="#why">لماذا نحن</a>
+      <a href="#contact">اتصل بنا</a>
+    </nav>
+    <a href="/" class="admin-link" title="لوحة التحكم">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 15a3 3 0 100-6 3 3 0 000 6z"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+      لوحة التحكم
+    </a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="store-hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="eyebrow">PREMIUM CAR RENTAL · MOROCCO</span>
+      <h1>استعرض أسطولنا<br><em>واحجز في ثوانٍ</em></h1>
+      <p>من السيارات الاقتصادية إلى الفئات الفاخرة — اختر سيارتك، أدخل تواريخك، وأكمل الحجز مباشرة عبر واتساب.</p>
+      <div class="hero-stats">
+        <div><strong>10+</strong><span>سيارة فاخرة</span></div>
+        <div><strong>24/7</strong><span>خدمة عملاء</span></div>
+        <div><strong>+500</strong><span>عميل سعيد</span></div>
+      </div>
+      <a href="#fleet" class="btn-gold-lg">
+        استعرض الأسطول
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1000&q=80&auto=format&fit=crop" alt="Luxury car">
+    </div>
+  </div>
+</section>
+
+<!-- ============ FILTERS + FLEET ============ -->
+<section class="fleet-section" id="fleet">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">OUR FLEET</span>
+      <h2>اختر سيارتك المفضلة</h2>
+      <p>أسطول متنوع يناسب جميع احتياجاتك وميزانيتك</p>
+    </div>
+
+    <div class="filters">
+      <div class="search-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <input type="text" id="storeSearch" placeholder="ابحث بالموديل أو الماركة...">
+      </div>
+      <div class="filter-chips" id="filterChips">
+        <button class="chip active" data-filter="all">الكل</button>
+        <button class="chip" data-filter="luxury">فاخرة</button>
+        <button class="chip" data-filter="suv">SUV</button>
+        <button class="chip" data-filter="sport">رياضية</button>
+        <button class="chip" data-filter="economy">اقتصادية</button>
+      </div>
+      <div class="sort-wrap">
+        <select id="sortSelect">
+          <option value="default">الترتيب الافتراضي</option>
+          <option value="price-asc">السعر: من الأقل للأعلى</option>
+          <option value="price-desc">السعر: من الأعلى للأقل</option>
+          <option value="year">الأحدث</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="storeGrid" class="store-grid"></div>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section class="why-section" id="why">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">WHY CHOOSE US</span>
+      <h2>لماذا PRESTIGE MOTORS؟</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>أسطول مضمون</h3>
+        <p>جميع سياراتنا جديدة، مصانة، ومؤمّنة بالكامل لراحتك وأمانك.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <h3>تسليم سريع</h3>
+        <p>نوصل السيارة إلى مطار محمد الخامس أو أي مكان في الدار البيضاء.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+        </div>
+        <h3>أسعار شفافة</h3>
+        <p>لا رسوم خفية. السعر الذي تراه هو السعر الذي تدفعه.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        </div>
+        <h3>دعم فوري</h3>
+        <p>فريقنا متاح على واتساب على مدار الساعة للإجابة على استفساراتك.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT / CTA ============ -->
+<section class="cta-section" id="contact">
+  <div class="container cta-inner">
+    <div>
+      <span class="eyebrow">READY TO RIDE?</span>
+      <h2>هل لديك سؤال؟ تواصل معنا الآن</h2>
+      <p>فريقنا جاهز لمساعدتك على مدار الساعة.</p>
+    </div>
+    <a href="https://wa.me/212715072766?text=مرحباً%20PRESTIGE%20MOTORS،%20أريد%20الاستفسار%20عن%20خدماتكم" target="_blank" class="btn-whatsapp-lg">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      تواصل عبر واتساب
+    </a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="brand">
+      <div class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L4 7v10l8 5 8-5V7l-8-5z"/><path d="M12 22V12M4 7l8 5 8-5"/></svg>
+      </div>
+      <div class="brand-text"><h1>PRESTIGE</h1><span>MOTORS · RENTAL</span></div>
+    </div>
+    <p>© 2024 PRESTIGE MOTORS. جميع الحقوق محفوظة.</p>
+    <p class="contact-line">📞 +212 715 072 766 · 📧 contact@prestige-motors.ma</p>
+  </div>
+</footer>
+
+<!-- ============ CAR DETAIL MODAL ============ -->
+<div class="modal-overlay" id="carModal">
+  <div class="car-modal-content" id="carModalContent"></div>
+</div>
+
+<!-- ============ BOOKING MODAL ============ -->
+<div class="modal-overlay" id="bookingModal">
+  <div class="booking-modal-content" id="bookingModalContent"></div>
+</div>
+
+<div id="storeToast" class="toast"></div>
+
+<script src="/store.js"></script>
+</body>
+</html>
